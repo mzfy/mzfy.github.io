@@ -5,9 +5,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
+    
 }
 .jumbo {
     font-size: 8em;
+}
+.jumbo2 {
+    font-size: 4em;
 }
 .left {
     text-align: left;
