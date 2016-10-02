@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Fira+Mono';
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.jumbo {
+    font-size: 4em;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.desc {
+    font-style: italic;
+}
+body {
+    font-family: "Fira Mono", monospace;
+}
+.centert {
+    text-align: center;
+}
+.footer {
+    font-size: 1em;
+}
