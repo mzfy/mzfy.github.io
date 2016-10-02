@@ -27,3 +27,30 @@ body {
 .footer {
     font-size: 1em;
 }
+body {
+    color: floralwhite;
+    background: linear-gradient(270deg, #8affe1, #81d1ff, #8497ff, #c979ff, #fe7dff);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: bg 30s ease infinite;
+    -moz-animation: bg 30s ease infinite;
+    animation: bg 30s ease infinite;
+}
+@-webkit-keyframes bg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bg { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+a {
+    color: antiquewhite;
+}
