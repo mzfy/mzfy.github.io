@@ -2,7 +2,6 @@
 body {
 font-family: 'Open Sans', sans-serif;
 font-size: 2em;
-margin: 25%;
 }
 .jumbo {
 font-size: 4em;
@@ -16,4 +15,8 @@ text-decoration: none;
 a:hover, a:active {
 text-decoration: underline;
 text-decoration-style: dotted;
+}
+.header,.body {
+  width: 75%;
+  margin: 0 auto;
 }
