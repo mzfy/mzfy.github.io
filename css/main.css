@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 2em;
+margin: 25%;
+}
+.jumbo {
+font-size: 4em;
+}
+a,a:visited,a:hover,a:active {
+color: grey;
+}
+a,a:visited {
+text-decoration: none;
+}
+a:hover, a:active {
+text-decoration: underline;
+text-decoration-style: dotted;
+}
